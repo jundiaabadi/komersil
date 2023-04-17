@@ -1,0 +1,79 @@
+.slide img {
+  filter: brightness(30%);
+}
+
+.card p {
+margin-top: -10px;
+}
+
+
+a{
+text-decoration:none; 
+color: #0062cc;
+
+}
+.box{
+  padding:60px 0px;
+}
+
+.box-part{
+  background:#FFF;
+  border-radius:0;
+  padding:60px 10px;
+  margin:30px 0px;
+}
+.text{
+  margin:20px 0px;
+}
+
+.fa{
+   color:#4183D7;
+}
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  
+ 
+  border-bottom: none;
+
+}
+
+a:hover {
+  
+  border: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+@media only screen and (max-width:767px) {
+  .carousel-caption {
+    bottom: 125px;  
+}
+.carousel-caption h5 {
+  font-size: 17px;
+}
+.carousel-caption p {
+  width: 100%;
+  line-height: 1.6;
+  font-size: 12px;
+}
+.card-body p {
+  justify-content: start;
+  align-items: start;
+  align-content: center;
+  text-align: start;
+}
+}
